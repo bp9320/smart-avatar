@@ -20,3 +20,5 @@ Once I had completed all of the work for the text/image avatar, I began working 
 3. I would tweak the carousel/video controls so that they also reacted to the > size > prop of the component.
 
 4. I would probably add some sort of hover effect where hovering on an the avatar would open the image/video in a larger component like a dialog or a drawer.
+
+5. I would likely create two additional components, one for the controls, and one for the image/video/text display. This would make it a little easier to isolate the logic that might be specific to one of those areas.
