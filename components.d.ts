@@ -12,5 +12,6 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
+    SmartAvatar: typeof import('./src/components/SmartAvatar.vue')['default']
   }
 }
