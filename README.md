@@ -4,6 +4,8 @@
 3. Run `npm run dev`
 
 # How I approached the problem:
+The project was initiated using the instructions on Vuetify's website (running `npm create vuetify@latest`)
+
 I began by making the text only avatar as Vuetify's `Avatar` component gets you 90% of the way there with little additional logic needed. Once that was done, I updated the component to show a single image. I skipped video for now as I didn't have one handy and am not as familiar with working with videos and didn't want to stop my progress to look a few things up.
 
 At this point, the logic was starting to add up, so I pulled it into a composable that could be used alongside the component. I then worked on getting the slideshow feature working with only images. Since avatars are typically fairly small, I decided to pull all controls below the avatar so that they do not cover the image, and so that they are more easily visible since the images can change color and possibly reduce contrast with any overlayed buttons.
